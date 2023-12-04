@@ -287,7 +287,7 @@
 			"html.format.wrapAttributes.forcemultiline": "Zawijaj każdy atrybut.",
 			"html.format.wrapAttributes.preserve": "Zachowaj zawijanie atrybutów.",
 			"html.format.wrapAttributes.preservealigned": "Zachowaj zawijanie atrybutów, ale wyrównaj je.",
-			"html.format.wrapAttributesIndentSize.desc": "Wcięcie opakowanych atrybutów po N znakach. Użyj wartości \"null\", aby użyć domyślnego rozmiaru wcięcia. Ignorowane, jeśli właściwość \"#html.format.wrapAttributes#\" ma wartość \"aligned\".",
+			"html.format.wrapAttributesIndentSize.desc": "Wcięcie zawiniętych atrybutów po N znakach. Użyj wartości `null`, aby użyć domyślnego rozmiaru wcięcia. Ignorowane jeśli parametr `#html.format.wrapAttributes#` jest ustawiony na wartość `aligned`.",
 			"html.format.wrapLineLength.desc": "Maksymalna liczba znaków na wiersz (0 = wyłącz).",
 			"html.hover.documentation": "Pokaż dokumentację tagów i atrybutów po zatrzymaniu wskaźnika myszy.",
 			"html.hover.references": "Pokaż odwołania do dokumentacji MDN po zatrzymaniu wskaźnika myszy.",

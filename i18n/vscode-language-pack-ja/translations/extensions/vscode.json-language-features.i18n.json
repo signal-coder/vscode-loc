@@ -105,6 +105,7 @@
 			"Schema Validated": "スキーマ検証済み",
 			"Select the schema to use for {0}": "{0} に使用するスキーマを選択します",
 			"Show Schemas": "スキーマの表示",
+			"Sort JSON": "JSON の並べ替え",
 			"String does not match the pattern of \"{0}\".": "文字列はパターン \"{0}\" と一致しません。",
 			"String is longer than the maximum length of {0}.": "文字列が {0} の最大長を超えています。",
 			"String is not a RFC3339 date-time.": "文字列は RFC3339 日時ではありません。",
@@ -173,10 +174,10 @@
 			"json.maxItemsExceededInformation.desc": "アウトライン記号と折りたたみ領域の最大値を超えたときに通知を表示します。",
 			"json.schemaResolutionErrorMessage": "スキーマを解決できません。",
 			"json.schemas.desc": "スキーマを現在のプロジェクトの JSON ファイルに関連付けます。",
-			"json.schemas.fileMatch.desc": "JSON ファイルをスキーマに解決するときに照合するファイル パターンの配列。'*' をワイルドカードとして使用できます。除外パターンを定義して '!' で始めることもできます。一致するパターンが少なくとも 1 つあり、最後に一致するパターンが除外パターンでない場合、そのファイルは一致します。",
-			"json.schemas.fileMatch.item.desc": "JSON ファイルをスキーマに解決するときに突き合わせる、'*' を含められるファイル パターンです。",
+			"json.schemas.fileMatch.desc": "JSON ファイルをスキーマに解決するときに照合するファイル パターンの配列。'*' と '**' をワイルドカードとして使用できます。除外パターンを定義して '!' で始めることもできます。一致するパターンが少なくとも 1 つあり、最後に一致するパターンが除外パターンでない場合、そのファイルは一致します。",
+			"json.schemas.fileMatch.item.desc": "JSON ファイルをスキーマに解決するときに照合する '*' と '**' を含めることができるファイル パターン。'!' で始まるときは、除外パターンを定義します。",
 			"json.schemas.schema.desc": "指定された URL のスキーマ定義です。スキーマは、スキーマ URL へのアクセスを避けるためにのみ指定する必要があります。",
-			"json.schemas.url.desc": "スキーマへの URL または現在のディレクトリ内のスキーマへの相対パス",
+			"json.schemas.url.desc": "スキーマへの URL または絶対ファイル パス。ワークスペースとワークスペース フォルダーの設定の相対パス ('./' から始まる) を指定できます。",
 			"json.tracing.desc": "VS Code と JSON 言語サーバー間の通信をトレースします。",
 			"json.validate.enable.desc": "JSON 検証を有効または無効にします。"
 		}
